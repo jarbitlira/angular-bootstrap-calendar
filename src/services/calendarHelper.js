@@ -157,7 +157,7 @@ angular
       });
 
       view.days = view.days.map(function(day) {
-        day.date = moment(day.date);
+        day.date = moment(day.date).utc();
         day.label = day.date.date();
         day.badgeTotal = getBadgeTotal(day.events);
         if (!calendarConfig.displayAllMonthEvents && !day.inMonth) {
