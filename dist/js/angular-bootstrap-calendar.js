@@ -1,6 +1,6 @@
 /**
  * angular-bootstrap-calendar - A pure AngularJS bootstrap themed responsive calendar that can display events and has views for year, month, week and day
- * @version v0.28.0
+ * @version v0.28.1
  * @link https://github.com/mattlewis92/angular-bootstrap-calendar
  * @license MIT
  */
@@ -660,16 +660,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	/******/ 	// expose the module cache
 	/******/ 	__webpack_require__.c = installedModules;
 
-	/******/ 	// identity function for calling harmory imports with the correct context
+	/******/ 	// identity function for calling harmony imports with the correct context
 	/******/ 	__webpack_require__.i = function(value) { return value; };
 
-	/******/ 	// define getter function for harmory exports
+	/******/ 	// define getter function for harmony exports
 	/******/ 	__webpack_require__.d = function(exports, name, getter) {
-	/******/ 		Object.defineProperty(exports, name, {
-	/******/ 			configurable: false,
-	/******/ 			enumerable: true,
-	/******/ 			get: getter
-	/******/ 		});
+	/******/ 		if(!__webpack_require__.o(exports, name)) {
+	/******/ 			Object.defineProperty(exports, name, {
+	/******/ 				configurable: false,
+	/******/ 				enumerable: true,
+	/******/ 				get: getter
+	/******/ 			});
+	/******/ 		}
 	/******/ 	};
 
 	/******/ 	// getDefaultExport function for compatibility with non-harmony modules
@@ -693,123 +695,124 @@ return /******/ (function(modules) { // webpackBootstrap
 	/************************************************************************/
 	/******/ ([
 	/* 0 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_0__;
 
-	/***/ },
+	/***/ }),
 	/* 1 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
 
-	/***/ },
+	/***/ }),
 	/* 2 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
 
-	/***/ },
+	/***/ }),
 	/* 3 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_3__;
 
-	/***/ },
+	/***/ }),
 	/* 4 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_4__;
 
-	/***/ },
+	/***/ }),
 	/* 5 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_5__;
 
-	/***/ },
+	/***/ }),
 	/* 6 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_6__;
 
-	/***/ },
+	/***/ }),
 	/* 7 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_7__;
 
-	/***/ },
+	/***/ }),
 	/* 8 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_8__;
 
-	/***/ },
+	/***/ }),
 	/* 9 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_9__;
 
-	/***/ },
+	/***/ }),
 	/* 10 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_10__;
 
-	/***/ },
+	/***/ }),
 	/* 11 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_11__;
 
-	/***/ },
+	/***/ }),
 	/* 12 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_12__;
 
-	/***/ },
+	/***/ }),
 	/* 13 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_13__;
 
-	/***/ },
+	/***/ }),
 	/* 14 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_14__;
 
-	/***/ },
+	/***/ }),
 	/* 15 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_15__;
 
-	/***/ },
+	/***/ }),
 	/* 16 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_16__;
 
-	/***/ },
+	/***/ }),
 	/* 17 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_17__;
 
-	/***/ },
+	/***/ }),
 	/* 18 */
-	/***/ function(module, exports) {
+	/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_18__;
 
-	/***/ },
+	/***/ }),
 	/* 19 */
-	/***/ function(module, exports, __webpack_require__) {
+	/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 	"use strict";
+	Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 	/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_date_fns_end_of_day__ = __webpack_require__(6);
 	/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_date_fns_end_of_day___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_date_fns_end_of_day__);
 	/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_date_fns_add_minutes__ = __webpack_require__(2);
@@ -848,12 +851,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_date_fns_difference_in_minutes___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17_date_fns_difference_in_minutes__);
 	/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_date_fns_add_hours__ = __webpack_require__(1);
 	/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_date_fns_add_hours___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18_date_fns_add_hours__);
-	/* harmony export (binding) */ __webpack_require__.d(exports, "getWeekViewEventOffset", function() { return getWeekViewEventOffset; });
-	/* harmony export (binding) */ __webpack_require__.d(exports, "getWeekViewHeader", function() { return getWeekViewHeader; });
-	/* harmony export (binding) */ __webpack_require__.d(exports, "getWeekView", function() { return getWeekView; });
-	/* harmony export (binding) */ __webpack_require__.d(exports, "getMonthView", function() { return getMonthView; });
-	/* harmony export (binding) */ __webpack_require__.d(exports, "getDayView", function() { return getDayView; });
-	/* harmony export (binding) */ __webpack_require__.d(exports, "getDayViewHourGrid", function() { return getDayViewHourGrid; });
+	/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getWeekViewEventOffset", function() { return getWeekViewEventOffset; });
+	/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getWeekViewHeader", function() { return getWeekViewHeader; });
+	/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getWeekView", function() { return getWeekView; });
+	/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getMonthView", function() { return getMonthView; });
+	/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getDayView", function() { return getDayView; });
+	/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getDayViewHourGrid", function() { return getDayViewHourGrid; });
 
 
 
@@ -1123,7 +1126,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 
-	/***/ }
+	/***/ })
 	/******/ ]);
 	});
 
@@ -3811,7 +3814,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      });
 
 	      view.days = view.days.map(function(day) {
-	        day.date = moment(day.date);
+	        day.date = moment(day.date).utc();
 	        day.label = day.date.date();
 	        day.badgeTotal = getBadgeTotal(day.events);
 	        if (!calendarConfig.displayAllMonthEvents && !day.inMonth) {
